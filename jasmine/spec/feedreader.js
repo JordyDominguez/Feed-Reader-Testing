@@ -22,6 +22,7 @@ $(function() {
          it('has defined URLs', function() {
             for (let i of allFeeds){
                 expect(i.url).toBeDefined();
+                expect(i.url.length).not.toBeLessThan(0);
             }
          });
 
@@ -32,6 +33,7 @@ $(function() {
          it('has defined names', function() {
             for (let i of allFeeds){
                 expect(i.name).toBeDefined();
+                expect(i.name.length).not.toBeLessThan(0);
             }
          });
     });
