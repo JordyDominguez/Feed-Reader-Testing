@@ -9,7 +9,7 @@
 
 ## Run Feed Reader Test Locally
 
-Please open index.html in a browser
+Please open index.html in a browser to run the Feed Reader for testing
 
 ## Instructions
 
